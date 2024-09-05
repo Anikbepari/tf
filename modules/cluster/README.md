@@ -19,7 +19,7 @@ For more details see the [design doc](https://github.com/terraform-aws-modules/t
 module "ecs_cluster" {
   source = "terraform-aws-modules/ecs/aws//modules/cluster"
 
-  cluster_name = "ecs-fargate"
+  cluster_name = "ecs-fargate" helo
 
   cluster_configuration = {
     execute_command_configuration = {
